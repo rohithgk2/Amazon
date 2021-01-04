@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<breakfast_menu>
+    <food>
+        <name>Idly</name>&gt;
+        <price>10</price>
+        <calories>100</calories>
+    </food>
+    <food>
+        <name>Dosa</name>&gt;
+        <price>15 </price>
+        <calories>200</calories>
+    </food>
+    <food>
+        <name>Puttu</name>&gt;
+        <price>20</price>
+        <calories>150</calories>
+    </food>
+<food /><name>Vada</name><price>10</price><calories>300</calories></breakfast_menu>

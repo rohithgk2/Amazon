@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.3 on win32)" generated="20201226 14:20:21.204" rpa="false">
+<suite id="s1" name="Final" source="C:\Users\rohit\PycharmProjects\Amazon\PracticeSuite\tests\Final.robot">
+<test id="s1-t1" name="User log into Webpage">
+<kw name="Begin Test" library="Common" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20201226 14:20:21.897" level="INFO">Opening browser 'chrome' to base url 'http://www.google.com'.</msg>
+<status status="PASS" starttime="20201226 14:20:21.896" endtime="20201226 14:20:26.527"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:21.895" endtime="20201226 14:20:26.527"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Verification of selection</arg>
+</arguments>
+<msg timestamp="20201226 14:20:26.527" level="INFO">Verification of selection</msg>
+<status status="PASS" starttime="20201226 14:20:26.527" endtime="20201226 14:20:26.527"></status>
+</kw>
+<kw name="Webpage Loading" library="App">
+<kw name="Load Page" library="Landing">
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${LINK_URL}</arg>
+</arguments>
+<msg timestamp="20201226 14:20:26.532" level="INFO">Opening url 'http://www.robotframeworktutorial.com/front-office/'</msg>
+<status status="PASS" starttime="20201226 14:20:26.532" endtime="20201226 14:20:30.903"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:26.531" endtime="20201226 14:20:30.903"></status>
+</kw>
+<kw name="Verify Page" library="Landing">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Welcome To Our Studio!</arg>
+</arguments>
+<status status="PASS" starttime="20201226 14:20:30.903" endtime="20201226 14:20:30.944"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:30.903" endtime="20201226 14:20:30.945"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:26.527" endtime="20201226 14:20:30.945"></status>
+</kw>
+<kw name="Option Selection" library="App">
+<kw name="Search Option" library="Selection">
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="bs-example-navbar-collapse-1"]/ul/li[5]/a</arg>
+</arguments>
+<msg timestamp="20201226 14:20:30.949" level="INFO">Clicking link 'xpath=//*[@id="bs-example-navbar-collapse-1"]/ul/li[5]/a'.</msg>
+<status status="PASS" starttime="20201226 14:20:30.949" endtime="20201226 14:20:31.102"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:30.948" endtime="20201226 14:20:31.103"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:30.947" endtime="20201226 14:20:31.103"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20201226 14:20:34.113" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201226 14:20:31.105" endtime="20201226 14:20:34.113"></status>
+</kw>
+<kw name="Option Verification" library="App">
+<kw name="Verify Selection" library="Verify">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>${VERIFICATION_TEXT}</arg>
+</arguments>
+<status status="PASS" starttime="20201226 14:20:34.117" endtime="20201226 14:20:34.144"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:34.116" endtime="20201226 14:20:34.146"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:34.115" endtime="20201226 14:20:34.146"></status>
+</kw>
+<kw name="Close Test" library="Common" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201226 14:20:34.147" endtime="20201226 14:20:36.364"></status>
+</kw>
+<status status="PASS" starttime="20201226 14:20:34.147" endtime="20201226 14:20:36.365"></status>
+</kw>
+<doc>Third Testcase</doc>
+<tags>
+<tag>Current</tag>
+</tags>
+<status status="PASS" starttime="20201226 14:20:21.892" endtime="20201226 14:20:36.366" critical="yes"></status>
+</test>
+<doc>This is a basic idea of the test suite</doc>
+<status status="PASS" starttime="20201226 14:20:21.216" endtime="20201226 14:20:36.371"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">Current</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Final">Final</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
