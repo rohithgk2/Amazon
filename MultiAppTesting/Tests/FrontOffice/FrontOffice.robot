@@ -20,7 +20,7 @@ User log into Webpage
 User Makes a selection
     [Documentation]  Second Testcase
     [Tags]  Smoke
-    Log  Making the right selection
+    Log  This is the testcase for selection
     FrontOfficeApp.Webpage Loading
     FrontOfficeApp.Option Selection
 

@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  This is a common page
+Documentation  This is the page for common setup
 Library  SeleniumLibrary
 
 *** Variables ***
