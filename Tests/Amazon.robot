@@ -6,7 +6,7 @@ Library  SeleniumLibrary
 *** Test Cases ***
 User must sign in to checkout
      [Documentation]  This is some basic info about the test
-     [Tags]  Smoke
+     [Tags]  Smoke Log Check
      Open Browser  https://www.amazon.com  chrome
      Mouse Over  id=nav-link-accountList
      Sleep  3s
