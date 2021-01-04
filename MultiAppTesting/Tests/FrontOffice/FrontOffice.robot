@@ -33,3 +33,6 @@ User log into Webpage
     FrontOfficeApp.Option Selection
     Sleep  3s
     FrontOfficeApp.Option Verification
+
+Feature2 Test
+    Log  I am feature 2
