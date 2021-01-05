@@ -12,7 +12,7 @@ Test Teardown  Close Test
 *** Test Cases ***
 User log into Webpage
     [Documentation]  First Testcase
-    [Tags]  Smoke
+    [Tags]  Smoke Testcase
     Log  Page is Loading Now
 
     FrontOfficeApp.Webpage Loading
