@@ -19,7 +19,7 @@ User log into Webpage
 
 User Makes a selection
     [Documentation]  Second Testcase
-    [Tags]  Smoke
+    [Tags]  Smoke Test
     Log  This is the testcase for selection
     FrontOfficeApp.Webpage Loading
     FrontOfficeApp.Option Selection
