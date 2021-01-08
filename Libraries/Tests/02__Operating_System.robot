@@ -8,7 +8,7 @@ Resource        C:/Users/rohit/PycharmProjects/Amazon/Libraries/Resources/OS/OS.
 *** Test Cases ***
 
 Create Directories
-    [Tags]  OperatingSystem
+    [Tags]  OperatingSystem1
     OS.Create Base Directory
     OS.Create First Directory
     OS.Create Second Directory
